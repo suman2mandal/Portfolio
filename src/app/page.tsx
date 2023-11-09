@@ -1,13 +1,10 @@
 import Image from 'next/image'
+import Home from "@/app/Home/page";
 
-export default function Home() {
+export default function page() {
   return (
-    <main className="bg-white dark:bg-stone-800">
-      <p className="text-xl text-black dark:text-white">
-
-        This is my portfolio website.
-      </p>
-
+    <main>
+      <Home/>
     </main>
   )
 }

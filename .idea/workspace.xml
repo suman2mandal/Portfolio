@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d05b57ee-6106-4590-8ee3-50d5b2074964" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/ThemeProvider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Nav/Mode/Switcher.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Nav/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/next.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/postcss.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/app/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/app/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/tailwind.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/tsconfig.json" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Home/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +19,31 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="dev" />
+                    <option name="lastUsedInstant" value="1699544303" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1699544302" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,23 +56,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/maity/Desktop/Test/Portfolio/src/app&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\maity\\Desktop\\Test\\Portfolio\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "dev",
+    "last_opened_file_path": "C:/Users/maity/Desktop/Test/Portfolio/src/app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "pnpm",
+    "ts.external.directory.path": "D:\\Project\\React\\Portfolio\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\maity\Desktop\Test\Portfolio\src\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\React\Portfolio\src\components" />
       <recent name="C:\Users\maity\Desktop\Test\Portfolio\src\components\Nav" />
       <recent name="C:\Users\maity\Desktop\Test\Portfolio\src" />
     </key>
