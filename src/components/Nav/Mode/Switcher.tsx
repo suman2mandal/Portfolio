@@ -2,6 +2,7 @@
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import { BsMoonFill, BsFillSunFill } from "react-icons/bs";
+import { MdDeveloperMode } from "react-icons/md";
 import { motion } from "framer-motion";
 
 const Switcher = () => {
@@ -21,7 +22,7 @@ const Switcher = () => {
             <motion.button
                 id="theme-btn"
                 aria-label="Toggle Dark Mode"
-                className="text-xl"
+                className="flex justify-center items-center"
                 whileTap={{
                     scale: 0.7,
                     rotate: 360,
@@ -30,7 +31,7 @@ const Switcher = () => {
                 whileHover={{ scale: 1.2 }}
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             >
-                {theme === "dark" ? <BsMoonFill /> : <BsFillSunFill />}
+                {theme === "dark" ? <MdDeveloperMode className="text-3xl" /> : <MdDeveloperMode className="text-3xl"/>}
             </motion.button>
         </div>
     );
