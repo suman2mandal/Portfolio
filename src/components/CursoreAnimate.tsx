@@ -56,24 +56,24 @@ function App() {
         // </div>
 
 
-        <div  className="
+        <div onMouseEnter={textEnter} onMouseLeave={textLeave}  className="
          application flex flex-col justify-center ">
             {/*<div className="bg-amber-400/25 z-10 w-screen h-screen absolute">*/}
 
             {/*</div>*/}
-            <h1 onMouseEnter={textEnter} onMouseLeave={textLeave} className="text-5xl font-bold flex justify-center">
+            <h1  className="text-5xl font-bold flex justify-center">
                 The Ultimate Starter Template You
             </h1>
-            <h3 onMouseEnter={textEnter} onMouseLeave={textLeave} className="text-4xl mt-2 font-bold flex justify-center">
+            <h3  className="text-4xl mt-2 font-bold flex justify-center">
                 {" "}
                 Need To Start Your Astro Project
             </h3>
-            <p onMouseEnter={textEnter} onMouseLeave={textLeave} className="dark:text-gray-400 text-gray-800 mt-6 text-center">
+            <p  className="dark:text-gray-400 text-gray-800 mt-6 text-center">
                 Astroplate is a free starter template built with Astro and
                 TailwindCSS, providing everything you need to
                 <br /> jumpstart your Astro project and save valuable time.
             </p>
-            <div onMouseEnter={textEnter} onMouseLeave={textLeave} className="flex mt-6 justify-center">
+            <div className="flex mt-6 justify-center">
                 <button
                     type="button"
                     className="dark:bg-white bg-black/80 relative inline-flex items-center text-white/90 dark:text-black/80 font-bold hover:text-white hover:dark:text-black px-4 justify-center rounded-xl p-2 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"

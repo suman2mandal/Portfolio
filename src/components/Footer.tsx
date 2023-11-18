@@ -29,12 +29,12 @@ function Footer() {
             whileHover={{
               x: 0,
               y: 0,
-              scale: 1.5,
-              rotate: 12,
+              scale: 1.3,
+              rotate: 8,
             }}
             whileTap={{
               scale: 1,
-              rotate: -12,
+              rotate: -8,
               borderRadius: "100%",
             }}
             className="text-4xl mx-2 p-2"
@@ -45,12 +45,12 @@ function Footer() {
             whileHover={{
               x: 0,
               y: 0,
-              scale: 1.5,
-              rotate: 12,
+              scale: 1.3,
+              rotate: 8,
             }}
             whileTap={{
               scale: 1,
-              rotate: -12,
+              rotate: -8,
               borderRadius: "100%",
             }}
             className="text-4xl mx-2 p-2"
@@ -61,12 +61,12 @@ function Footer() {
             whileHover={{
               x: 0,
               y: 0,
-              scale: 1.5,
-              rotate: 12,
+              scale: 1.3,
+              rotate: 8,
             }}
             whileTap={{
               scale: 1,
-              rotate: -12,
+              rotate: -8,
               borderRadius: "100%",
             }}
             className="text-4xl mx-2 p-2"
@@ -77,12 +77,12 @@ function Footer() {
             whileHover={{
               x: 0,
               y: 0,
-              scale: 1.5,
-              rotate: 12,
+              scale: 1.3,
+              rotate: 8,
             }}
             whileTap={{
               scale: 1,
-              rotate: -12,
+              rotate: -8,
               borderRadius: "100%",
             }}
             className="text-4xl mx-2 p-2"

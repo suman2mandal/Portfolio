@@ -27,9 +27,9 @@ body {
 }
 
 
-* {
-  cursor: none;
-}
+/** {*/
+/*  cursor: none;*/
+/*}*/
 
 .application {
   /*display: flex;*/
@@ -44,7 +44,7 @@ body {
 }
 
 .cursor {
-  background-color: white;
+  /*background-color: white;*/
   height: 32px;
   width: 32px;
   border-radius: 50%;
@@ -53,4 +53,5 @@ body {
   left: 0;
   pointer-events: none;
   z-index: 999;
+  transition-duration: 120ms;
 }
