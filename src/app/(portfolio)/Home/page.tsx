@@ -3,13 +3,25 @@ import Banner from "@/components/Banner";
 import Footer from "@/components/Footer";
 import VerticalStepper from "@/components/VerticalStepper";
 import ContactMe from "@/components/ContactMe";
+import ContactForm from "@/components/ContactForm";
+import KnownFrameworks from "@/components/KnownFrameworks";
+import AllProject from "@/components/AllProject";
+import Education from "@/components/Education";
+import BlogHeader from "@/components/BlogHeader";
+import Projects from "@/components/Projects";
+import Pagination from "@/components/Pagination";
+import Navbar from "@/components/Nav/Navbar";
 
 function Home() {
   return (
     <div className="bg-white/40 text-black dark:text-white dark:bg-white/10">
-      <Banner />
-    {/*<VerticalStepper/>*/}
-        <ContactMe/>
+        <Navbar />
+        <Banner />
+        <Education />
+        <Projects/>
+        <KnownFrameworks/>
+        <AllProject/>
+        <ContactForm/>
       <Footer />
     </div>
   );

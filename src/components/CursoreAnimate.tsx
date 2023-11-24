@@ -61,10 +61,10 @@ function App() {
             {/*<div className="bg-amber-400/25 z-10 w-screen h-screen absolute">*/}
 
             {/*</div>*/}
-            <h1  className="text-5xl font-bold flex justify-center">
+            <h1  className="text-2xl sm:text-5xl text-center font-bold flex justify-center">
                 The Ultimate Starter Template You
             </h1>
-            <h3  className="text-4xl mt-2 font-bold flex justify-center">
+            <h3  className="text-xl sm:text-4xl text-center mt-2 font-bold flex justify-center">
                 {" "}
                 Need To Start Your Astro Project
             </h3>
@@ -87,7 +87,7 @@ function App() {
                 <div className=" flex mt-10 justify-center">
                     <Image
                         src="/banner.png"
-                        className="  justify-center h-1/6 w-4/6"
+                        className="min-w-full  justify-center h-1/6 w-4/6"
                         width={1000}
                         height={1000}
                         alt="Can't load Image"
