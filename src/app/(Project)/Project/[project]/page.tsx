@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from "@/components/Nav/Navbar";
 import Footer from "@/components/Footer";
 
-function Page(props) {
+function Page() {
     return (
         <>
         <Navbar/>
