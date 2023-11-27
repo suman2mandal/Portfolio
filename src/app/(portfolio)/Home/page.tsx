@@ -12,18 +12,20 @@ import Projects from "@/components/Projects";
 import Pagination from "@/components/Pagination";
 import Navbar from "@/components/Nav/Navbar";
 import Projects2 from "@/components/Projects2";
+import KnownTechnologies from "@/components/KnownTechnologies";
 
 function Home() {
   return (
     <div className="bg-white/40 text-black dark:text-white dark:bg-white/10">
         <Navbar/>
         <Banner/>
-        {/*<Education/>*/}
+        <Education/>
         {/*<Projects/>*/}
-        {/*<Projects2/>*/}
+        <Projects2/>
         {/*<KnownFrameworks/>*/}
-        {/*<AllProject/>*/}
-        {/*<ContactForm/>*/}
+        <KnownTechnologies/>
+        <AllProject/>
+        <ContactForm/>
         <Footer />
     </div>
   );

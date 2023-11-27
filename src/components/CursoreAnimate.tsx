@@ -69,9 +69,8 @@ function App() {
                 Need To Start Your Astro Project
             </h3>
             <p  className="dark:text-gray-400 text-gray-800 mt-6 text-center">
-                Astroplate is a free starter template built with Astro and
-                TailwindCSS, providing everything you need to
-                <br /> jumpstart your Astro project and save valuable time.
+                Experienced Web Developer adept in all stages of advanced web development.<br/> Knowledgeable in user interface, web development, and debugging processes.<br/> Bringing forth expertise in installation, testing, and maintenance of web systems.<br/> Equipped with a diverse and promising skill set.<br/> Proficient in various technologies, including HTML5, React, Next JS, Express, MongoDB, and Nginx.<br/> Able to effectively self-manage during independent projects, as well as collaborate in a team setting.
+                <br/>
             </p>
             <div className="flex mt-6 justify-center">
                 <button

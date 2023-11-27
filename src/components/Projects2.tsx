@@ -18,13 +18,13 @@ function Projects2() {
                         </div>
                         <div className="p-10 bg-white">
                             <h3 className="text-xl font-medium text-gray-700">
-                                Omnichannel support center
+                                Restock E-commerce Platform | Redux, Framer Motion, Swiper JS, React Particles
                             </h3>
                             <p className="mt-2 text-slate-500">
-                                Chatwoot connects with popular customer communication channels like
-                                Email, Website live-chat, Facebook, Twitter, WhatsApp, Instagram,
-                                Line, etc., and helps you deliver a consistent customer experience
-                                across channels.
+                                Developed and implemented key features for Restock, an open-source e-commerce platform for pre-owned PC parts, resulting in a 40% increase in user engagement.
+                                o	Ensured quality, affordability, and sustainability in the tech industry
+                                o	Used Next JS to develop this  project with scalable and responsive features
+                                o	Increased the traffic and conversion rate of the website by 15% and 10% respectively
                             </p>
                             <a href="" className="mt-2 inline-flex text-sky-500">
                                 Read More →
@@ -41,13 +41,12 @@ function Projects2() {
                         </div>
                         <div className="p-10 bg-white">
                             <h3 className="text-xl font-medium text-gray-700">
-                                Omnichannel support center
+                                Stay-Stats Data-Driven Dashboard for Hotel Management | Next JS, Redux, rechart
                             </h3>
                             <p className="mt-2 text-slate-500">
-                                Chatwoot connects with popular customer communication channels like
-                                Email, Website live-chat, Facebook, Twitter, WhatsApp, Instagram,
-                                Line, etc., and helps you deliver a consistent customer experience
-                                across channels.
+                                Created a dashboard for a hotel business to analyse key performance indicators, enabling strategic planning through data visualization of trends impacting business performance.
+                                o	Engineered a robust hotel management system optimizing key performance indicators (KPIs) by streamlining booking processes and increasing revenue by 25% annually.
+                                o	Enabled strategic planning and decision making with interactive data visualization using Next JS.
                             </p>
                             <a href="" className="mt-2 inline-flex text-sky-500">
                                 Read More →
@@ -64,13 +63,10 @@ function Projects2() {
                         </div>
                         <div className="p-10 bg-white">
                             <h3 className="text-xl font-medium text-gray-700">
-                                Omnichannel support center
+                                Personal Portfolio🔗 | Framer Motion, Tailwind, Three JS
                             </h3>
                             <p className="mt-2 text-slate-500">
-                                Chatwoot connects with popular customer communication channels like
-                                Email, Website live-chat, Facebook, Twitter, WhatsApp, Instagram,
-                                Line, etc., and helps you deliver a consistent customer experience
-                                across channels.
+                                Portfolio website, designed with a user-friendly interface. It effectively highlights all my achievements and projects I have worked on.
                             </p>
                             <a href="" className="mt-2 inline-flex text-sky-500">
                                 Read More →
@@ -87,13 +83,10 @@ function Projects2() {
                         </div>
                         <div className="p-10 bg-white">
                             <h3 className="text-xl font-medium text-gray-700">
-                                Omnichannel support center
+                                E-Commerce🔗 | Redux, Swiper JS
                             </h3>
                             <p className="mt-2 text-slate-500">
-                                Chatwoot connects with popular customer communication channels like
-                                Email, Website live-chat, Facebook, Twitter, WhatsApp, Instagram,
-                                Line, etc., and helps you deliver a consistent customer experience
-                                across channels.
+                                E-commerce website Designed with a fresh, minimalist user interface, a user-friendly and intuitive browsing experience.
                             </p>
                             <a href="" className="mt-2 inline-flex text-sky-500">
                                 Read More →
