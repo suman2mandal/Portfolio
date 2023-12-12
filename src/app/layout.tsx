@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Nav/Navbar";
 import ThemeProviders from "@/app/ThemeProvider";
+import ActiveSectionContextProvider from "@/context/active-section-context";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,14 +16,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+    <ActiveSectionContextProvider>
       <ThemeProviders>
         <body
           className={`bg-gradient-to-r dark:from-gray-900 from-gray-400 dark:via-zinc-900 via-zinc-300 dark:to-stone-800 to-stone-400`}
         >
-          <Navbar />
           {children}
         </body>
       </ThemeProviders>
+    </ActiveSectionContextProvider>
     </html>
   );
 }

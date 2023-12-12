@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 function Footer() {
   return (
     <>
-      <div className="grid grid-cols-3 grid-rows-1">
+      <div className="grid sm:grid-cols-3 grid-rows-1">
         <div className="flex justify-center">
           <p className="font-signature ml-2 text-gray-700 dark:text-white">
             <Link
@@ -29,65 +29,65 @@ function Footer() {
             whileHover={{
               x: 0,
               y: 0,
-              scale: 1.5,
-              rotate: 12,
+              scale: 1.3,
+              rotate: 8,
             }}
             whileTap={{
               scale: 1,
-              rotate: -12,
+              rotate: -8,
               borderRadius: "100%",
             }}
-            className="text-4xl mx-2 p-2"
+            className="text-2xl mt-4 sm:text-4xl mx-2 p-2"
           >
-            <ImGithub />
+              <Link href="https://github.com/suman2mandal"><ImGithub /></Link>
           </motion.div>
           <motion.div
             whileHover={{
               x: 0,
               y: 0,
-              scale: 1.5,
-              rotate: 12,
+              scale: 1.3,
+              rotate: 8,
             }}
             whileTap={{
               scale: 1,
-              rotate: -12,
+              rotate: -8,
               borderRadius: "100%",
             }}
-            className="text-4xl mx-2 p-2"
+            className="text-2xl mt-4 sm:text-4xl mx-2 p-2"
           >
-            <ImLinkedin />
+              <Link href="https://www.linkedin.com/in/suman-mandal-a896a61a7/"><ImLinkedin /></Link>
           </motion.div>
           <motion.div
             whileHover={{
               x: 0,
               y: 0,
-              scale: 1.5,
-              rotate: 12,
+              scale: 1.3,
+              rotate: 8,
             }}
             whileTap={{
               scale: 1,
-              rotate: -12,
+              rotate: -8,
               borderRadius: "100%",
             }}
-            className="text-4xl mx-2 p-2"
+            className="text-2xl mt-4 sm:text-4xl mx-2 p-2"
           >
-            <FaXTwitter />
+              <Link href="https://twitter.com/SumanMa18734776"><FaXTwitter /></Link>
           </motion.div>
           <motion.div
             whileHover={{
               x: 0,
               y: 0,
-              scale: 1.5,
-              rotate: 12,
+              scale: 1.3,
+              rotate: 8,
             }}
             whileTap={{
               scale: 1,
-              rotate: -12,
+              rotate: -8,
               borderRadius: "100%",
             }}
-            className="text-4xl mx-2 p-2"
+            className="text-2xl mt-4 sm:text-4xl mx-2 p-2"
           >
-            <PiMetaLogo />
+              <Link href="https://www.facebook.com/thesumanm"><PiMetaLogo /></Link>
           </motion.div>
         </div>
       </div>
