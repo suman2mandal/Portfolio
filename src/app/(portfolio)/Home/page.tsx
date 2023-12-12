@@ -5,7 +5,7 @@ import VerticalStepper from "@/components/VerticalStepper";
 import ContactMe from "@/components/ContactMe";
 import ContactForm from "@/components/ContactForm";
 import KnownFrameworks from "@/components/KnownFrameworks";
-import AllProject from "@/components/AllProject";
+import AllCirtificates from "@/components/AllCirtificates";
 import Education from "@/components/Education";
 import BlogHeader from "@/components/BlogHeader";
 import Projects from "@/components/Projects";
@@ -13,6 +13,7 @@ import Pagination from "@/components/Pagination";
 import Navbar from "@/components/Nav/Navbar";
 import Projects2 from "@/components/Projects2";
 import KnownTechnologies from "@/components/KnownTechnologies";
+import ToolStack from "@/components/ToolStack";
 
 function Home() {
   return (
@@ -24,7 +25,8 @@ function Home() {
         <Projects2/>
         {/*<KnownFrameworks/>*/}
         <KnownTechnologies/>
-        <AllProject/>
+        {/*<ToolStack/>*/}
+        <AllCirtificates/>
         <ContactForm/>
         <Footer />
     </div>

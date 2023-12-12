@@ -33,7 +33,7 @@ function Education() {
                             <h1 className="mx-auto text-white font-semibold dark:text-black text-lg">2</h1>
                         </div>
                         <div className="order-1 bg-slate-600 rounded-lg shadow-xl w-5/12 px-6 py-4">
-                            <h3 className="mb-3 font-bold text-white text-xl">Central Calcutta Polytechnic, Kolkata, West Bengal (Oct,&nbsp;2020)  </h3>
+                            <h3 className="mb-3 font-bold text-white text-xl">Central Calcutta Polytechnic(Oct,&nbsp;2020)  </h3>
                             <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
                                 Diploma in Computer Science & Technology: Conducted by the West Bengal State Council of Technical & Vocational Education & Skill Development in October 2020 and was placed in 1st Class with Distinction.
                             </p>
@@ -46,7 +46,7 @@ function Education() {
                             <h1 className="mx-auto font-semibold text-lg dark:text-black text-white">3</h1>
                         </div>
                         <div className="order-1 bg-white rounded-lg shadow-xl w-5/12 px-6 py-4">
-                            <h3 className="mb-3 font-bold text-gray-800 text-xl">Jyotirmoy Basu Vocational Training Center</h3>
+                            <h3 className="mb-3 font-bold text-gray-800 text-xl">Jyotirmoy Basu Vocational Training Center(Jan,&nbsp;2018)</h3>
                             <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
                                 Conducted by the West Bengal State Council of Vocational Education & Traning in June 2018 and was placed in excellent(A+) grade.
                             </p>

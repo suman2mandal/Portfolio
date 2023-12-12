@@ -39,7 +39,7 @@ function Footer() {
             }}
             className="text-2xl mt-4 sm:text-4xl mx-2 p-2"
           >
-            <ImGithub />
+              <Link href="https://github.com/suman2mandal"><ImGithub /></Link>
           </motion.div>
           <motion.div
             whileHover={{
@@ -55,7 +55,7 @@ function Footer() {
             }}
             className="text-2xl mt-4 sm:text-4xl mx-2 p-2"
           >
-            <ImLinkedin />
+              <Link href="https://www.linkedin.com/in/suman-mandal-a896a61a7/"><ImLinkedin /></Link>
           </motion.div>
           <motion.div
             whileHover={{
@@ -71,7 +71,7 @@ function Footer() {
             }}
             className="text-2xl mt-4 sm:text-4xl mx-2 p-2"
           >
-            <FaXTwitter />
+              <Link href="https://twitter.com/SumanMa18734776"><FaXTwitter /></Link>
           </motion.div>
           <motion.div
             whileHover={{
@@ -87,7 +87,7 @@ function Footer() {
             }}
             className="text-2xl mt-4 sm:text-4xl mx-2 p-2"
           >
-            <PiMetaLogo />
+              <Link href="https://www.facebook.com/thesumanm"><PiMetaLogo /></Link>
           </motion.div>
         </div>
       </div>
