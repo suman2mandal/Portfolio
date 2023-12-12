@@ -48,7 +48,7 @@ const Myskills = () => {
           className="max-w-[100%] "
         >
           {SkillData.map((skill, index) => (
-            <SwiperSlide key={index} className="space-x-4">
+            <SwiperSlide key={index}>
               <Image
                 src={skill.Image}
                 alt={skill.name}
