@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from "@/components/Nav/Navbar";
-import BlogHeader from "@/components/BlogHeader";
-import Pagination from "@/components/Pagination";
+import BlogHeader from "@/components/Blog/Banner/BlogHeader";
+import Pagination from "@/components/Blog/Pagination/Pagination";
 
 function Page() {
     return (

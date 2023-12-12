@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from "@/components/Nav/Navbar";
-import Footer from "@/components/Footer";
+import Footer from "@/components/portfolio/Footer/Footer";
 
 function Page() {
     return (
