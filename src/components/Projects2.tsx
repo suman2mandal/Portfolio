@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from "next/image";
 interface ProjectData {
     image: string;
     title: string;
@@ -11,11 +11,12 @@ function Project({ image, title, description, link }: ProjectData): JSX.Element{
     return (
         <div className="row-span-2 flex flex-col rounded-md border border-slate-200">
             <div className="h-1/2 flex-1">
-                <img
-                    src={image}
-                    className=" h-full w-full object-cover object-right-top"
-                    alt={title}
-                />
+                {/*<img*/}
+                {/*    src={image}*/}
+                {/*    className=" h-full w-full object-cover object-right-top"*/}
+                {/*    alt={title}*/}
+                {/*/>*/}
+                <Image src={image} width={100} height={100} sizes="200vw" style={{ width: '100%', height: '100%' }} alt="" />
             </div>
             <div className="p-10 bg-white">
                 <h3 className="text-xl font-medium text-gray-700">
