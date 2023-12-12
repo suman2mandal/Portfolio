@@ -30,18 +30,33 @@ body {
 /** {*/
 /*  cursor: none;*/
 /*}*/
+.flip-card-inner {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
 
-.application {
-  /*display: flex;*/
-  /*align-items: center;*/
-  /*justify-content: center;*/
-  /*height: 100vh;*/
-  /*background-color: yellow;*/
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+
+/* .application {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: yellow;
 }
 
 .title {
-  /*font-size: 10rem;*/
-}
+  font-size: 10rem;
+} */
 
 .cursor {
   /*background-color: white;*/

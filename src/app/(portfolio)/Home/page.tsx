@@ -14,6 +14,8 @@ import Navbar from "@/components/Nav/Navbar";
 import Projects2 from "@/components/portfolio/Projects/Projects2";
 import KnownTechnologies from "@/components/portfolio/Technologies and Frameworks/KnownTechnologies";
 import ToolStack from "@/components/portfolio/Technologies and Frameworks/ToolStack";
+import Myskills from "@/components/portfolio/Techstack/page";
+import MyProjects from "@/components/MyProjects/page";
 
 function Home() {
   return (
@@ -22,9 +24,11 @@ function Home() {
         <Banner/>
         {/*<Education/>*/}
         {/*<Projects/>*/}
-        <Projects2/>
+        {/* <Projects2/> */}
+        <MyProjects/>
         {/*<KnownFrameworks/>*/}
-        <KnownTechnologies/>
+        {/* <KnownTechnologies/> */}
+        <Myskills/>
         {/*<ToolStack/>*/}
         {/*<AllCirtificates/>*/}
         <ContactForm/>
