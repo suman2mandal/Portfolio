@@ -9,7 +9,7 @@ const ContactMe = () => {
             <div className="flex justify-center">
                 <div>
                 <div className="text-4xl text-center">Contact Me</div>
-                <div className="text-2xl">I'd love to hear from you!</div>
+                <div className="text-2xl">I&apos;d love to hear from you!</div>
                 </div>
             </div>
             <div className="grid px-24 grid-cols-2 w-screen">
