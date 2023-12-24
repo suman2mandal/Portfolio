@@ -16,10 +16,11 @@ import KnownTechnologies from "@/components/portfolio/Technologies and Framework
 import ToolStack from "@/components/portfolio/Technologies and Frameworks/ToolStack";
 import Myskills from "@/components/portfolio/Techstack/page";
 import MyProjects from "@/components/MyProjects/page";
+import AllCirtificates from "@/components/portfolio/Certificates/AllCertificates";
 
 function Home() {
   return (
-    <div className="bg-white/40 text-black dark:text-white dark:bg-white/10">
+    <div className="bg-white/40 text-black dark:text-white dark:bg-white/10 " style={{scrollBehavior: "smooth"}}>
         <Navbar/>
         <Banner/>
         {/*<Education/>*/}
@@ -30,7 +31,7 @@ function Home() {
         {/* <KnownTechnologies/> */}
         <Myskills/>
         {/*<ToolStack/>*/}
-        {/*<AllCirtificates/>*/}
+        <AllCirtificates/>
         <ContactForm/>
         <Footer />
     </div>

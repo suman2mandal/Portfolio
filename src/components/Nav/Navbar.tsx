@@ -24,27 +24,27 @@ const Navbar = () => {
       <ul className="hidden md:flex gap-8">
         <li className="nav-links cursor-pointer capitalize font-semibold dark:text-gray-300 text-gray-700 hover:scale-105 dark:hover:text-white hover:text-gray-800 duration-200 flex gap-1">
           <IoMdPerson className="my-auto" />
-          <Link href="/">About</Link>
+          <Link href="#About">About</Link>
         </li>
         <li className="nav-links cursor-pointer capitalize font-semibold dark:text-gray-300 text-gray-700 hover:scale-105 dark:hover:text-white hover:text-gray-800 duration-200 flex gap-1">
           <SiExpertsexchange className="my-auto" />
-          <Link href="/">Experience</Link>
+          <Link href="#Experience">Experience</Link>
         </li>
         <li className="nav-links cursor-pointer capitalize font-semibold dark:text-gray-300 text-gray-700 hover:scale-105 dark:hover:text-white hover:text-gray-800 duration-200 flex gap-1">
           <AiFillProject className="my-auto" />
-          <Link href="/">Projects</Link>
+          <Link href="#Projects">Projects</Link>
         </li>
         <li className="nav-links cursor-pointer capitalize font-semibold dark:text-gray-300 text-gray-700 hover:scale-105 dark:hover:text-white hover:text-gray-800 duration-200 flex gap-1">
           <PiCertificateFill className="my-auto" />
-          <Link href="/">Certifications</Link>
+          <Link href="#Certifications">Certifications</Link>
         </li>
         <li className="nav-links cursor-pointer capitalize font-semibold dark:text-gray-300 text-gray-700 hover:scale-105 dark:hover:text-white hover:text-gray-800 duration-200 flex gap-1">
           <AiFillContacts className="my-auto" />
-          <Link href="/">Contact</Link>
+          <Link href="#Contact">Contact</Link>
         </li>
         <li className="nav-links cursor-pointer capitalize font-semibold dark:text-gray-300 text-gray-700 hover:scale-105 dark:hover:text-white hover:text-gray-800 duration-200 flex gap-1">
           <PiGameControllerFill className="my-auto" />
-          <Link href="/">Hobbies</Link>
+          <Link href="#Hobbies">Hobbies</Link>
         </li>
       </ul>
     </div>

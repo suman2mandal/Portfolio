@@ -1,8 +1,35 @@
-import React from 'react';
+"use client"
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import HedingWrapper from "@/components/Wrapper/HedingWrapper";
 
 function ContactForm() {
+    const form = useRef<HTMLFormElement | null>(null);
+
+    const sendEmail = (e:React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_bqr1ztk', 'template_m1w2f6t', form.current as HTMLFormElement, '7dsYl_5bwHie3p0N8')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
+    // return (
+    //     <form ref={form} onSubmit={sendEmail}>
+    //         <label>Name</label>
+    //         <input type="text" name="user_name" />
+    //         <label>Email</label>
+    //         <input type="email" name="user_email" />
+    //         <label>Message</label>
+    //         <textarea name="message" />
+    //         <input type="submit" value="Send" />
+    //     </form>
+    // );
     return (
         <>
+
             <div className="relative flex items-top justify-center mb-20 sm:items-center">
                 <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
                     <div className="mt-8 overflow-hidden">
@@ -11,6 +38,7 @@ function ContactForm() {
                                 <h1 className="text-4xl sm:text-5xl text-gray-800 dark:text-white font-extrabold tracking-tight">
                                     Get in touch
                                 </h1>
+                                {/*<HedingWrapper>Get in touch</HedingWrapper>*/}
                                 <p className="text-normal text-lg sm:text-2xl font-medium text-gray-600 dark:text-gray-400 mt-2">
                                     Fill in the form to start a conversation
                                 </p>
@@ -84,50 +112,58 @@ function ContactForm() {
                                     </div>
                                 </div>
                             </div>
-                            <form className="p-6 flex flex-col justify-center">
-                                <div className="flex flex-col">
-                                    <label htmlFor="name" className="hidden">
-                                        Full Name
-                                    </label>
-                                    <input
-                                        type="name"
-                                        name="name"
-                                        id="name"
-                                        placeholder="Full Name"
-                                        className="w-100 mt-2 py-3 px-3 rounded-lg  border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"
-                                    />
-                                </div>
-                                <div className="flex flex-col mt-2">
-                                    <label htmlFor="email" className="hidden">
-                                        Email
-                                    </label>
-                                    <input
-                                        type="email"
-                                        name="email"
-                                        id="email"
-                                        placeholder="Email"
-                                        className="w-100 mt-2 py-3 px-3 rounded-lg border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"
-                                    />
-                                </div>
-                                <div className="flex flex-col mt-2">
-                                    <label htmlFor="tel" className="hidden">
-                                        Number
-                                    </label>
-                                    <input
-                                        type="tel"
-                                        name="tel"
-                                        id="tel"
-                                        placeholder="Telephone Number"
-                                        className="w-100 mt-2 py-3 px-3 rounded-lg border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"
-                                    />
-                                </div>
-                                <button
-                                    type="submit"
-                                    className="w-full bg-indigo-600 hover:bg-blue-dark text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-indigo-500 transition ease-in-out duration-300"
-                                >
-                                    Submit
-                                </button>
-                            </form>
+                                <form className="p-6 flex flex-col justify-center" ref={form} onSubmit={sendEmail}>
+                                {/*<form >*/}
+                                    <div className="flex flex-col">
+                                        <label htmlFor="name" className="hidden">
+                                            Full Name
+                                        </label>
+                                        <input
+                                            type="name"
+                                            name="user_name"
+                                            id="name"
+                                            placeholder="Full Name"
+                                            className="w-100 mt-2 py-3 px-3 rounded-lg  border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"
+                                        />
+                                    </div>
+                                    <div className="flex flex-col mt-2">
+                                        <label htmlFor="email" className="hidden">
+                                            Email
+                                        </label>
+                                        <input
+                                            type="email"
+                                            name="user_email"
+                                            id="email"
+                                            placeholder="Email"
+                                            className="w-100 mt-2 py-3 px-3 rounded-lg border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"
+                                        />
+                                    </div>
+                                    <div className="flex flex-col mt-2">
+                                        <label htmlFor="tel" className="hidden">
+                                            Message
+                                        </label>
+                                        {/*<input*/}
+                                        {/*    type="tel"*/}
+                                        {/*    name="tel"*/}
+                                        {/*    id="tel"*/}
+                                        {/*    placeholder="Telephone Number"*/}
+                                        {/*    className="w-100 mt-2 py-3 px-3 rounded-lg border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"*/}
+                                        {/*/>*/}
+                                        <textarea
+                                            className="w-100 mt-2 py-3 px-3 rounded-lg border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"
+                                            name="message"/>
+
+                                    </div>
+                                    <input type="submit"
+                                           className="w-full bg-indigo-600 hover:bg-blue-dark text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-indigo-500 transition ease-in-out duration-300"
+                                           value="Send"/>
+                                    {/*<button*/}
+                                    {/*    type="submit"*/}
+                                    {/*    className="w-full bg-indigo-600 hover:bg-blue-dark text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-indigo-500 transition ease-in-out duration-300"*/}
+                                    {/*>*/}
+                                    {/*    Submit*/}
+                                    {/*</button>*/}
+                                </form>
                         </div>
                     </div>
                 </div>
