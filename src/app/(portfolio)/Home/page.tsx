@@ -6,7 +6,7 @@ import ContactMe from "@/components/portfolio/Contact/ContactMe";
 import ContactForm from "@/components/portfolio/Contact/ContactForm";
 import KnownFrameworks from "@/components/portfolio/Technologies and Frameworks/KnownFrameworks";
 // import AllCirtificates from "@/components/Cirtificates/AllCirtificates";
-// import Education from "@/components/Education/Education";
+import Education from "@/components/portfolio/Education/Education";
 import BlogHeader from "@/components/Blog/Banner/BlogHeader";
 import Projects from "@/components/portfolio/Projects/Projects";
 import Pagination from "@/components/Blog/Pagination/Pagination";
@@ -23,7 +23,7 @@ function Home() {
     <div className="bg-white/40 text-black dark:text-white dark:bg-white/10 " style={{scrollBehavior: "smooth"}}>
         <Navbar/>
         <Banner/>
-        {/*<Education/>*/}
+        <Education/>
         {/*<Projects/>*/}
         {/* <Projects2/> */}
         <MyProjects/>

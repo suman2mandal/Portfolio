@@ -17,7 +17,7 @@ const Switcher = () => {
     return null;
   }
   return (
-    <div>
+    <div className="">
       {/* The current theme is: {theme} */}
       <motion.button
         id="theme-btn"

@@ -9,42 +9,42 @@ import { PiGameControllerFill } from "react-icons/pi";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center w-full h-20 px-20 text-white z-50">
-      <div>
+    <div className="flex justify-between items-center w-full h-20 px-20 text-white z-50 fixed bg-white dark:bg-gray-800">
+      <div className="w-1/6">
         <p className="font-signature ml-2 text-gray-700 dark:text-gray-300">
           <Link
             href="/"
-            className="flex justify-center items-center gap-2 font-extrabold text-2xl"
+            className="flex justify-center items-center font-extrabold text-2xl"
           >
             <Switcher />
             PORTFOLIO
           </Link>
         </p>
       </div>
-      <ul className="hidden md:flex gap-8">
+      <ul className="hidden md:flex justify-evenly w-full">
         <li className="nav-links cursor-pointer capitalize font-semibold dark:text-gray-300 text-gray-700 hover:scale-105 dark:hover:text-white hover:text-gray-800 duration-200 flex gap-1">
-          <IoMdPerson className="my-auto" />
+          <IoMdPerson className="my-auto"/>
           <Link href="#About">About</Link>
         </li>
         <li className="nav-links cursor-pointer capitalize font-semibold dark:text-gray-300 text-gray-700 hover:scale-105 dark:hover:text-white hover:text-gray-800 duration-200 flex gap-1">
-          <SiExpertsexchange className="my-auto" />
-          <Link href="#Experience">Experience</Link>
+          <SiExpertsexchange className="my-auto"/>
+          <Link href="#Education">Education</Link>
         </li>
         <li className="nav-links cursor-pointer capitalize font-semibold dark:text-gray-300 text-gray-700 hover:scale-105 dark:hover:text-white hover:text-gray-800 duration-200 flex gap-1">
-          <AiFillProject className="my-auto" />
+          <AiFillProject className="my-auto"/>
           <Link href="#Projects">Projects</Link>
         </li>
         <li className="nav-links cursor-pointer capitalize font-semibold dark:text-gray-300 text-gray-700 hover:scale-105 dark:hover:text-white hover:text-gray-800 duration-200 flex gap-1">
-          <PiCertificateFill className="my-auto" />
+          <PiCertificateFill className="my-auto"/>
           <Link href="#Certifications">Certifications</Link>
         </li>
+        {/*<li className="nav-links cursor-pointer capitalize font-semibold dark:text-gray-300 text-gray-700 hover:scale-105 dark:hover:text-white hover:text-gray-800 duration-200 flex gap-1">*/}
+        {/*  <PiGameControllerFill className="my-auto"/>*/}
+        {/*  <Link href="#Hobbies">Hobbies</Link>*/}
+        {/*</li>*/}
         <li className="nav-links cursor-pointer capitalize font-semibold dark:text-gray-300 text-gray-700 hover:scale-105 dark:hover:text-white hover:text-gray-800 duration-200 flex gap-1">
-          <AiFillContacts className="my-auto" />
+          <AiFillContacts className="my-auto"/>
           <Link href="#Contact">Contact</Link>
-        </li>
-        <li className="nav-links cursor-pointer capitalize font-semibold dark:text-gray-300 text-gray-700 hover:scale-105 dark:hover:text-white hover:text-gray-800 duration-200 flex gap-1">
-          <PiGameControllerFill className="my-auto" />
-          <Link href="#Hobbies">Hobbies</Link>
         </li>
       </ul>
     </div>

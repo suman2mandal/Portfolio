@@ -73,3 +73,24 @@ body {
   z-index: 999;
   transition-duration: 80ms;
 }
+
+.toggler {
+  background: linear-gradient(to right, #af66f3, #af66f3, #ee4447, #af66f3, #af66f3); /* Use a linear gradient from black to white */
+  background-size: 200% 100%; /* Set the size of the gradient to twice the container's width */
+  height: 100%;
+  border-radius: 50%;
+  padding: 2px;
+  animation: toggleBackground 5s infinite; /* Set the total duration to 2 seconds (1s for each color transition) */
+}
+
+@keyframes toggleBackground {
+  0% {
+    background-position: 100% 0; /* Start with the gradient fully to the left */
+  }
+  50% {
+    background-position: 0 0; /* Move the gradient to the right at 50% */
+  }
+  100% {
+    background-position: -100% 0; /* Move the gradient back to the left at 100% */
+  }
+}

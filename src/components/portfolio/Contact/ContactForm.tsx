@@ -30,12 +30,12 @@ function ContactForm() {
     return (
         <>
 
-            <div className="relative flex items-top justify-center mb-20 sm:items-center">
+            <div className="relative flex items-top justify-center mb-20 sm:items-center" id="Contact">
                 <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
                     <div className="mt-8 overflow-hidden">
                         <div className="grid grid-cols-1 md:grid-cols-2">
                             <div className="p-6 mr-2 sm:rounded-lg">
-                                <h1 className="text-4xl sm:text-5xl text-gray-800 dark:text-white font-extrabold tracking-tight">
+                                <h1 className="text-4xl sm:text-5xl text-gray-800 dark:text-white font-extrabold tracking-tight bg-gradient-to-r from-purple-500 to-red-500 bg-clip-text text-transparent">
                                     Get in touch
                                 </h1>
                                 {/*<HedingWrapper>Get in touch</HedingWrapper>*/}
