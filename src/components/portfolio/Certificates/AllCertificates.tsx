@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import HedingWrapper from "@/components/Wrapper/HedingWrapper";
 
 function AllCirtificates() {
   // @ts-ignore
@@ -23,7 +24,7 @@ function AllCirtificates() {
               width={100}
               height={100}
               sizes="200vw"
-              style={{ width: "100%", height: "100%" }}
+              style={{ width: "100%", height: "100%",objectFit: "cover", objectPosition: "left" }}
               alt=""
             />
           </div>
@@ -73,8 +74,11 @@ function AllCirtificates() {
   ];
 
   return (
-    <>
-      <div className="text-4xl font-bold flex justify-center">Cirtificates</div>
+    <div className="mt-20" id="Certifications">
+      {/*<div className="text-4xl font-bold flex justify-center">Cirtificates</div>*/}
+      <HedingWrapper>
+        Cirtificates
+      </HedingWrapper>
       <div className="flex min-h-screen items-center justify-center p-10">
         <div className="container grid max-w-screen-xl gap-8 lg:grid-cols-2 lg:grid-rows-2">
           <ProjectTemplate
@@ -85,7 +89,7 @@ function AllCirtificates() {
           />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

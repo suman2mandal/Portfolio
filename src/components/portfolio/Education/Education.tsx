@@ -1,13 +1,14 @@
 import React from 'react';
+import HedingWrapper from "@/components/Wrapper/HedingWrapper";
 
 function Education() {
     return (
-        <>
-            <div className="text-4xl font-bold flex justify-center mt-24">
+        <div id="Education">
+            <HedingWrapper>
                 Education
-            </div>
+            </HedingWrapper>
             {/* component */}
-            <div className="container mx-auto w-full h-full mb-24">
+            <div className="container mx-auto w-full h-full mb-24 hidden md:block">
                 <div className="relative wrap overflow-hidden p-10 h-full">
                     <div
                         className="border-2-2 absolute dark:border-white border-gray-700 h-full border"
@@ -54,7 +55,7 @@ function Education() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
 
     );
 }

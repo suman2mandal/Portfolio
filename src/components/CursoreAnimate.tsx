@@ -1,62 +1,79 @@
-"use client"
-import React, { useEffect, useState } from 'react';
-import {motion} from 'framer-motion';
-import '@/app/globals.css';
-import Image from "next/image";
+"use client";
+import React, { useState } from 'react';
+import Image from 'next/image';
+import { motion } from 'framer-motion';
+import HedingWrapper from "@/components/Wrapper/HedingWrapper";
+
+
 
 function App() {
+
     return (
         <div className="
          application flex flex-col justify-center ">
-            {/*<div className="bg-amber-400/25 z-10 w-screen h-screen absolute">*/}
+            <HedingWrapper>
+                Welcome to my portfolio!
+            </HedingWrapper>
 
-            {/*</div>*/}
-            <h1  className="text-2xl sm:text-5xl text-center font-bold flex justify-center">
-                The Ultimate Starter Template You
-            </h1>
-            <h3  className="text-xl sm:text-4xl text-center mt-2 font-bold flex justify-center">
+
+            <h4  className="text-md sm:text-4xl text-center mt-2 font-bold flex justify-center">
                 {" "}
-                Need To Start Your Astro Project
-            </h3>
-            <p  className="dark:text-gray-400 text-gray-800 mt-6 text-center xl:text-2xl">
-                Experienced Web Developer adept in all stages of advanced web development.<br/> Knowledgeable in user interface, web development, and debugging processes.<br/> Bringing forth expertise in installation, testing, and maintenance of web systems.<br/> Equipped with a diverse and promising skill set.<br/> Proficient in various technologies, including HTML5, React, Next JS, Express, MongoDB, and Nginx.<br/> Able to effectively self-manage during independent projects, as well as collaborate in a team setting.
+                Exploring the Digital Landscape: My Web Development Journey
+            </h4>
+            <p className="dark:text-gray-400 text-xl text-gray-800 mt-6 text-left md:text-center xl:text-2xl">
+                I’m a passionate Web Developer with a knack for creating dynamic and interactive web experiences.<br/>
+                I’m currently on the lookout for new opportunities to bring my skills to a forward-thinking
+                company.<br/>
+
+                If you’re seeking a dedicated developer who is always on the pulse of the latest industry trends and
+                technologies, then look no further.<br/> Let’s connect and explore how we can build the future of the
+                web
+                together! 💼🚀
                 <br/>
             </p>
-            <div className="">
-                <div className=" flex mt-10 justify-center">
+        <div className="application flex flex-col justify-center">
+            {/* ... (your existing code) ... */}
 
+            <div className="lg:mx-60 md:mx-20">
+                <div className="flex h-[200px] sm:h-[250px] md:h-[300px] lg:h-[550px] mt-10 justify-center">
                     <Image
-                        src="/Background.png"
-                        className="min-w-full justify-center h-1/6 w-4/6"
+                        src="/L0.png"
+                        className="min-w-full justify-center absolute"
+                            width={1000}
+                            height={1000}
+                        alt="Can't load Image"
+                    />
+                    <Image
+                        src="/L1.png"
+                        className="min-w-full justify-center absolute hover1"
+                            width={1000}
+                            height={1000}
+                        alt="Can't load Image"
+                    />
+                    <Image
+                        src="/L2.png"
+                        className="min-w-full justify-center absolute  hover2"
                         width={1000}
                         height={1000}
                         alt="Can't load Image"
                     />
-
                     <Image
-                        src="/Layer 2.png"
-                        className="min-w-full  justify-center h-20 w-14 absolute"
-                        width={1000}
-                        height={1000}
-                        alt="Can't load Image"
-                    />
-                    {/*</motion.div>*/}
-                    <Image
-                        src="/Layer 4.png"
-                        className="min-w-full  justify-center  w-4/6 absolute"
+                        src="/L3.png"
+                        className="min-w-full justify-center absolute hover3"
                         width={1000}
                         height={1000}
                         alt="Can't load Image"
                     />
                     <Image
-                        src="/Layer 5.png"
-                        className="min-w-full  justify-center  w-4/6 absolute"
+                        src="/L4.png"
+                        className="min-w-full justify-center absolute hover4"
                         width={1000}
                         height={1000}
                         alt="Can't load Image"
                     />
                 </div>
             </div>
+        </div>
         </div>
     );
 }
